@@ -105,11 +105,15 @@ class App extends Component {
     }
   };
 
+  logoutUser = ()=>{
+    this.setState({currentUser:null})
+  }
+
   render() {
     return (
       <Routes>
         <div className="App">
-          <NavBar user={this.state.currentUser}></NavBar>
+          <NavBar user={this.state.currentUser} logoutUser={this.logoutUser}></NavBar>
           <Route
             path="/"
             exact
