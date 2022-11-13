@@ -1,0 +1,54 @@
+.users-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin: 0 10%;
+  }
+  
+  .user-avatar{
+    width: 20%;
+    border-radius: 10px;
+    transition: 0.5s;
+    padding: 3%;
+  }
+
+  .user-avatar:hover{
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
+    0 3px 0 #ccc, 0 4px 0 #ccc,
+    0 5px 0 #ccc, 0 6px 0 #ccc,
+    0 20px 30px rgba(0, 0, 0, 0.5);
+  }
+
+  .user-0{
+    background-color: rgb(194, 194, 194);
+  }
+  .user-1{
+    background-color: rgb(155, 155, 155);
+  }
+  .user-2{
+    background-color: rgb(109, 109, 109);
+  }
+  .user-3{
+    background-color: rgb(69, 69, 69);
+  }
+
+  .user-0:hover{
+    background-color: rgb(243, 198, 63);
+  }
+  .user-1:hover{
+    background-color: rgb(243, 177, 63);
+  }
+  .user-2:hover{
+    background-color: rgb(243, 153, 63);
+  }
+  .user-3:hover{
+    background-color: rgb(243, 141, 63);
+  }
+
+.user-info h3{
+  margin: 0;
+  position: absolute;
+  top:18px;
+  left:200px;
+}
